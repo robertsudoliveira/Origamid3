@@ -75,12 +75,20 @@ p{
 .detalhe{
   width: 60px;
   height: 4px;
-  background-color: var(--back-cor);
+  background-color: var(--back-color);
   position: absolute;
   top: 30px;
   right: -30px;
 
-  
+}
+.detalhe2{
+  width: 60px;
+  height: 4px;
+  background-color: var(--back-cor);
+  position: absolute;
+  top: 20px;
+  right: -30px;  
+
 }
 .botao{
   background-color: rgb(255, 0, 0);
