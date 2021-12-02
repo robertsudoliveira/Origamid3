@@ -11,10 +11,10 @@
 }
 body {
   margin: 0;
-  margin-top: 60px;
+  margin-top: 3.75rem;
   display: grid;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 3.75rem;
   justify-items: center;
   font-family: var(--font-f);
   background-color: var(--body-color);
@@ -33,21 +33,24 @@ h3 {
   margin: 0;
 }
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.3;
 }
 .menu {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.25rem;
   justify-content: center;
+}
+ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
 }
 .menu a {
   display: flex;
-
   background-color: #fff;
-  padding: 15px 30px;
-  border-radius: 4px;
+  padding: 0.9375rem 1.875rem;
+  border-radius: 0.25rem;
   color: #000;
   text-transform: uppercase;
 }
@@ -63,30 +66,15 @@ p {
 }
 .introducao {
   background-color: #fff;
-  padding: 40px;
+  padding: 2.5rem;
   text-align: right;
   position: relative;
   display: grid;
   align-content: center;
-  gap: 20px;
+  gap: 1.25rem;
   justify-items: end;
 }
-.detalhe {
-  width: 60px;
-  height: 4px;
-  background-color: var(--back-color);
-  position: absolute;
-  top: 30px;
-  right: -30px;
-}
-.detalhe2 {
-  width: 60px;
-  height: 4px;
-  background-color: var(--back-cor);
-  position: absolute;
-  top: 20px;
-  right: -30px;
-}
+
 .botao {
   background-color: rgb(255, 0, 0);
   color: #fff;
@@ -94,23 +82,25 @@ p {
   border-radius: 4px;
   text-transform: uppercase;
 }
-.subtitulo {
+.subtitulo{
+  background-image: url(./image/onda.svg);
+  z-index: 0;
   font-size: 4rem;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
   text-align: right;
-  padding: 40px;
+  padding: 2.5rem;
   align-self: center;
 }
 .vantagens {
   background-color: #fff;
-  padding: 40px;
+  padding: 2.5rem;
 }
 .vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px 20px;
-  padding: 20px;
+  gap: 0.652rem 1.25rem;
+  padding: 1.25rem;
 }
 .vantagens-item p {
   grid-column: 2;
@@ -118,5 +108,5 @@ p {
 .rodape {
   width: 100%;
   text-align: center;
-  padding: 40px;
+  padding: 2.5rem;
 }
