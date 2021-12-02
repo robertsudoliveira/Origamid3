@@ -17,7 +17,7 @@ body {
   gap: 3.75rem;
   justify-items: center;
   font-family: var(--font-f);
-  background-color: #eee
+  background-color: #eee;
 }
 img {
   max-width: 100%;
@@ -41,15 +41,8 @@ p {
   gap: 1.25rem;
   justify-content: center;
 }
-ul {
-  display: flex;
-  gap: 1.25rem;
-  list-style: none;
-}
-
 .menu a {
   display: flex;
-  /* background-color: #fff; */
   background: #fff;
   padding: 0.9375rem 1.875rem;
   border-radius: 0.25rem;
@@ -59,13 +52,17 @@ ul {
 .menu a:hover {
   background-color: #ee2211;
   transition: 0.3s;
-  color: #fff
+  color: #fff;
 }
-.container{
+ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+}
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
-  
 }
 .introducao {
   background-color: #fff;
@@ -77,23 +74,21 @@ ul {
   gap: 1.25rem;
   justify-items: end;
   position: relative;
-
 }
-.introducao::before{
+.introducao::before {
   content: "";
-  width: 2.50rem;
+  width: 2.5rem;
   height: 3px;
-  background-color:  #ee2211;
+  background-color: #ee2211;
   position: absolute;
   right: -20px;
   top: 20px;
-  
 }
-.introducao::after{
+.introducao::after {
   content: "";
-  width: 2.50rem;
+  width: 2.5rem;
   height: 3px;
-  background-color:  #ee2211;
+  background-color: #ee2211;
   position: absolute;
   right: -20px;
   bottom: 20px;
@@ -106,10 +101,10 @@ ul {
   border-radius: 4px;
   text-transform: uppercase;
 }
-.botao:hover{
+.botao:hover {
   background-color: #900;
 }
-.subtitulo{
+.subtitulo {
   background-image: url(./image/onda.svg);
   z-index: 0;
   font-size: 4rem;
@@ -123,10 +118,10 @@ ul {
   background-color: #fff;
   padding: 2.5rem;
 }
-.vantagens-item:hover{
-  border-left: 3px solid #ee2211;
+.vantagens-item:hover {
+  border-left: 2px solid #ee2211;
 }
-.vantagens-item:nth-child(odd){
+.vantagens-item:nth-child(odd) {
   background: #eee;
 }
 .vantagens-item {
