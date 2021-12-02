@@ -59,10 +59,11 @@ ul {
   transition: 0.5s;
   color: #fff;
 }
-.container {
+.container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
+  
 }
 .introducao {
   background-color: #fff;
@@ -73,6 +74,18 @@ ul {
   align-content: center;
   gap: 1.25rem;
   justify-items: end;
+  position: relative;
+
+}
+.introducao::before{
+  content: "";
+  width: 2.50rem;
+  height: 3px;
+  background-color:  #ee2211;
+  position: absolute;
+  right: -20px;
+  top: 20px;
+  
 }
 
 .botao {
@@ -81,6 +94,9 @@ ul {
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
+}
+.botao:hover{
+  background-color: #900;
 }
 .subtitulo{
   background-image: url(./image/onda.svg);
