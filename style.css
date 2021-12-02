@@ -17,7 +17,7 @@ body {
   gap: 3.75rem;
   justify-items: center;
   font-family: var(--font-f);
-  background-color: var(--body-color);
+  background-color: #eee
 }
 img {
   max-width: 100%;
@@ -46,18 +46,20 @@ ul {
   gap: 1.25rem;
   list-style: none;
 }
+
 .menu a {
   display: flex;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background: #fff;
   padding: 0.9375rem 1.875rem;
   border-radius: 0.25rem;
   color: #000;
   text-transform: uppercase;
 }
 .menu a:hover {
-  background-color: var(--back-cor);
-  transition: 0.5s;
-  color: #fff;
+  background-color: #ee2211;
+  transition: 0.3s;
+  color: #fff
 }
 .container{
   display: grid;
@@ -87,6 +89,15 @@ ul {
   top: 20px;
   
 }
+.introducao::after{
+  content: "";
+  width: 2.50rem;
+  height: 3px;
+  background-color:  #ee2211;
+  position: absolute;
+  right: -20px;
+  bottom: 20px;
+}
 
 .botao {
   background-color: rgb(255, 0, 0);
@@ -112,12 +123,19 @@ ul {
   background-color: #fff;
   padding: 2.5rem;
 }
+.vantagens-item:hover{
+  border-left: 3px solid #ee2211;
+}
+.vantagens-item:nth-child(odd){
+  background: #eee;
+}
 .vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 0.652rem 1.25rem;
   padding: 1.25rem;
 }
+
 .vantagens-item p {
   grid-column: 2;
 }
