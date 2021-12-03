@@ -36,18 +36,26 @@ p {
   font-size: 1.25rem;
   line-height: 1.3;
 }
+.header{
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
 .menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.25rem;
   justify-content: center;
 }
 .menu a {
-  display: flex;
+  display: block;
   background: #fff;
   padding: 0.9375rem 1.875rem;
   border-radius: 0.25rem;
   color: #000;
   text-transform: uppercase;
+  border: 1px solid transparent;
 }
 .menu a:hover {
   background-color: #ee2211;
@@ -58,6 +66,9 @@ ul {
   display: flex;
   gap: 1.25rem;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  
 }
 .container {
   display: grid;
@@ -72,7 +83,8 @@ ul {
   display: grid;
   align-content: center;
   gap: 1.25rem;
-  justify-items: end;
+  align-content: center;
+  justify-items: end ;
   position: relative;
 }
 .introducao::before {
@@ -92,6 +104,9 @@ ul {
   position: absolute;
   right: -20px;
   bottom: 20px;
+}
+.introducao h1{
+  font-size: 2rem;
 }
 
 .botao {
@@ -114,12 +129,12 @@ ul {
   padding: 2.5rem;
   align-self: center;
 }
-.vantagens {
+.vantagens{
   background-color: #fff;
   padding: 2.5rem;
 }
 .vantagens-item:hover {
-  border-left: 2px solid #ee2211;
+  border-left: 1px solid #ee2211;
 }
 .vantagens-item:nth-child(odd) {
   background: #eee;
@@ -129,6 +144,8 @@ ul {
   grid-template-columns: auto 1fr;
   gap: 0.652rem 1.25rem;
   padding: 1.25rem;
+  border: 2px solid transparent;
+  transition: 0.5s;
 }
 
 .vantagens-item p {
