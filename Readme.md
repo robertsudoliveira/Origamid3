@@ -1,14 +1,14 @@
 # Bikcraft
 
 >Projeto feito com a finalidade de colocar o css grid em prática.
+>Nesse projeto contém responsividade.
 
-### Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Media Query
 
 <img src="./assets/Bikcraft.gif" alt="Bikcraft" />
+
+<img src="./assets/Bikcraftx.gif" alt="Bikcraft" />
 
 
 ## 💻 Pré-requisitos
