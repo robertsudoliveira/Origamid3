@@ -160,6 +160,8 @@ ul {
   text-align: center;
   padding: 2.5rem;
 }
+
+/** Parte da Responsividade */
 /** Primeiro Break point */
 @media (max-width: 1000px){
 .conteudo-vantagem {
@@ -168,7 +170,7 @@ ul {
 .subtitulo{
   text-align: center;
 }
-}
+}/** Segundo Break Point*/
 @media (max-width: 600px){
   body{
     gap: 30px;
